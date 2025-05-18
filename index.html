@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Observer</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Dados da Pesquisa</h1>
+      <form class="data__container">
+        <div class="form__group">
+          <label class="form__label">JavaScript</label>
+          <input class="form__input" type="number" id="javascript" />
+        </div>
+        <div class="form__group">
+          <label class="form__label">Python</label>
+          <input class="form__input" type="number" id="python" />
+        </div>
+        <div class="form__group">
+          <label class="form__label">PHP</label>
+          <input class="form__input" type="number" id="php" />
+        </div>
+        <div class="form__group">
+          <label class="form__label">Java</label>
+          <input class="form__input" type="number" id="java" />
+        </div>
+      </form>
+      <h1>Gráficos</h1>
+      <div class="chart__container">
+        <canvas id="graficoBarra"></canvas>
+        <canvas id="graficoRosca"></canvas>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
